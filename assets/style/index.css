@@ -7,6 +7,16 @@ a {
   text-decoration: none;
 }
 
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+}
+
+header .header-left .logo {
+  width: 124px;
+  margin-top: 20px;
+}
 /* containerクラスのCSSを指定してください */
 .container {
   width: 1170px;
