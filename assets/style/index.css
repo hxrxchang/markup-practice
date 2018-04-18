@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: "Hiragino Kaku Gothic ProN";
@@ -43,7 +47,8 @@ header .header-left .logo {
 }
 /* containerクラスのCSSを指定してください */
 .container {
-  width: 1170px;
+  max-width: 1170px;
+  width: 100%;
   padding: 0 15px 0 15px;
   margin: 0 auto;
 }
@@ -106,10 +111,15 @@ header .header-left .logo {
 }
 
 .lesson-wrapper {
-  height: 500px;
   padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
   background-color: #f7f7f7;
   text-align: center;
+}
+
+.clear {
+  clear: left
 }
 
 .lesson-wrapper .container .heading {
